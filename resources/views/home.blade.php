@@ -30,7 +30,7 @@
 
                     @if(session()->has('success'))
                         <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert">×</button>
+                            <button type="button" class="close" data-dismiss="alert">x</button>
                             {{ session()->get('success') }}
                         </div>
                     @endif
@@ -68,8 +68,6 @@
                             @endforelse
                         </tbody>
                     </table>
-                    <h1>Token gerado</h1>
-                    {{-- <p> {{ dd(Auth::user()) }}</p> --}}
                 </div>
             </div>
         </div>
