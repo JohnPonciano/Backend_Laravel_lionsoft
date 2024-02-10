@@ -40,7 +40,7 @@ DB_PASSWORD=admin
 ```
 ## Rode os seeders
 ```bash
-    php artisan db:seed --class=UsersTableSeede
+    php artisan db:seed --class=UsersTableSeeder
 ```
 
 ```bash
