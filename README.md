@@ -100,6 +100,15 @@ add to: header
 ```
 Com isso você consegue fazer as demais requisições
 
+#### Corpo padrão das request
+```json
+        {   
+			"title": "Titulo da task",
+			"description": "descrição da task",
+			"completed": 0
+		}
+```
+
 #### Retorna todos os itens
 
 ```http
