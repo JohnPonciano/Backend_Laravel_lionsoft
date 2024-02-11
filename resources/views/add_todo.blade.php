@@ -26,7 +26,7 @@
                     @endif
 
                     @if(session()->has('success'))
-                        <div class="alert alert-success">
+                        <div class="alert alert-success" role="alert">
                             <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
                             {{ session()->get('success') }}
                         </div>
