@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    {{ __('Dashboard') }} -
+                    {{ __('Dashboard') }}
                 </div>
                 <h5 class="card-header">
                     <a href="{{ route('todo.create') }}" class="btn btn-sm btn-outline-primary">Add Item</a>
@@ -30,7 +30,7 @@
 
                     @if(session()->has('success'))
                         <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert">x</button>
+                            <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
                             {{ session()->get('success') }}
                         </div>
                     @endif
