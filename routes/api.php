@@ -10,9 +10,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
-
-
 // Rota para login da API
 Route::post('/api/login', [ApiAuthController::class, 'login']);
 
@@ -24,8 +21,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::put('/api/tasks/{id}', [ApiTaskController::class, 'update']);
     Route::delete('/api/tasks/{id}', [ApiTaskController::class, 'destroy']);
 
-    // Rota para logout da API
-    Route::post('/api/logout', [ApiAuthController::class, 'logout']);
+    
 });
 
 Route::fallback(function () {
