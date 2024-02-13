@@ -16,6 +16,11 @@ Instale meu projeto
 ```bash
  git clone https://github.com/JohnPonciano/Backend_Laravel_lionsoft.git
 ```
+
+```bash
+ cd Backend_Laravel_lionsoft
+```
+
 ```bash
  composer install
 ```
